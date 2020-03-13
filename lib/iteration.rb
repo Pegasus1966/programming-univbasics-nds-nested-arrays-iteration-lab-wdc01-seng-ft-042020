@@ -50,6 +50,7 @@ while row_index < src.count do
     else if src[row_index][element_index+1] % 2 == 0 
       outer_results << src[row_index][element_index+1]
     end
+    end
     element_index += 1
   row_index += 1
 end
