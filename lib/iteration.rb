@@ -27,7 +27,7 @@ while row_index < src.count do
     if src[row_index][element_index] > src[row_index][element_index+1]
       inner_results << src[row_index][element_index]
     else 
-      inner_results << src
+      inner_results << src[row_index][element_index+1]
     end
     element_index += 1
   end
