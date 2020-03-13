@@ -49,7 +49,6 @@ while row_index < src.count do
       total += src[row_index][element_index]
       total += src[row_index][element_index + 1]
     end
-    end
     element_index += 1
   row_index += 1
 end
